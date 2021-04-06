@@ -4,6 +4,7 @@
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void ordenar(float *menorp, float *maiorp); /*Declarando a função para poder ser utilizada na main*/
 

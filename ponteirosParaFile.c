@@ -4,6 +4,7 @@
  * escreve eles arredondados para duas casas decimais, em outro arquivo, de sa�da.
  */
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void){
       FILE *entrada_p;      // ponteiro para o arquivo de entrada
