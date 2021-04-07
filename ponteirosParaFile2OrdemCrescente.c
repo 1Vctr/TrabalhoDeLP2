@@ -6,8 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void ordenar(float *menorp, float *maiorp); /*Declarando a função para poder ser utilizada na main*/
-
+void ordenar(float *menorp, float *maiorp);
 int main(void){
    FILE *arquivop;
    char nome[20];
@@ -31,7 +30,7 @@ int main(void){
       fflush(stdin);
       fscanf(stdin, "%f%f%f", &nota1, &nota2, &nota3);
 
-      ordenar(&nota1, &nota2); /*Ordena as notas em ordem crescente*/
+      ordenar(&nota1, &nota2);
       ordenar(&nota1, &nota3);
       ordenar(&nota2, &nota3);
 
